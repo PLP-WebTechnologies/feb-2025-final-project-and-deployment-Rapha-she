@@ -42,54 +42,20 @@
   <p>&copy; 2025 My Blog. All rights reserved.</p>
 </footer>
 
-<script src="script.js"></script>
-</body>
-</html>
-
-
-
+<script src="script.js">
 const navToggle = document.getElementById('nav-toggle');
 const navLinks = document.getElementById('nav-links');
 
 navToggle.addEventListener('click', () => {
   navLinks.classList.toggle('show');
 });
-
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>About - My Blog</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body>
-
-<header>
-  <!-- Same nav as index.html -->
-  <nav class="navbar">
-    <a href="index.html" class="logo">MyBlog</a>
-    <button id="nav-toggle" aria-label="Toggle navigation">☰</button>
-    <ul class="nav-links" id="nav-links">
-      <li><a href="index.html">Home</a></li>
-      <li><a href="about.html" class="active">About</a></li>
-      <li><a href="blog.html">Blog</a></li>
-    </ul>
-  </nav>
-</header>
-
-<main>
-  <section class="about-content" style="max-width:900px; margin: 2rem auto; padding: 1rem;">
-    <h1>About Me</h1>
-    <p>This blog shares tips and tutorials on web development, design, and programming.</p>
-  </section>
-</main>
-
-<footer>
-  <p>&copy; 2025 My Blog. All rights reserved.</p>
-</footer>
-
-<script src="script.js"></script>
+</script>
 </body>
 </html>
+
+
+
+
+
+
+
